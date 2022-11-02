@@ -9,6 +9,7 @@
 |MemoryClaims|2|
 |GoodClaims|3|
 |BadClaims|4|
+Made to reflect which product name is used
 ## Enviroment.cs
 
 ## Dependency.cs
