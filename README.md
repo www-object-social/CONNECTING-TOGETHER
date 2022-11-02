@@ -20,7 +20,8 @@
 |@OBJECTSOCIAL/@Product/Product.Server|
 
 ```
-builder.Services.Product(Product.Name.BadClaims);
+Product.Name.BadClaims;
+//@OBJECTSOCIAL/@Product/Name.cs
 ```
 
 ## @Blazor software
@@ -32,8 +33,17 @@ builder.Services.Product(Product.Name.BadClaims);
 ## @OBJECTSOCIAL
 >Description coming
 ### @Product
->Description coming
+>We must have control on which platform the system works.
+#### Name.cs
+>Our project names
+|Value|ID|
+|-|-|
+|ForwardOBJECTSOCIAL|0|
+|OBJECTSOCIAL|1|
+|MemoryClaims|2|
+|GoodClaims|3|
+|BadClaims|4|
 #### Product
->Description coming
+>This is made so that we can keep track of which system the user accesses.
 #### Product.Server
 >Description coming
