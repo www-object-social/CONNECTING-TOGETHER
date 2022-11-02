@@ -9,6 +9,7 @@
 
 ### BadClaims.Server
 >Description coming
+
 |Domain|
 |-|
 |bad.claims|
@@ -17,6 +18,7 @@
 |-|
 |@Blazor browser/BadClaims.Browser|
 |@OBJECTSOCIAL/@Product/Product.Server|
+
 ```
 builder.Services.Product(Product.Name.BadClaims);
 ```
