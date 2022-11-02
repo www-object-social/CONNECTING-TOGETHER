@@ -55,6 +55,16 @@ Product.Name.BadClaims
 |MemoryClaims|2|
 |GoodClaims|3|
 |BadClaims|4|
+
+#### Environment.cs
+>Our Environment names
+
+|Value|ID|
+|-|-|
+|Software|0|
+|Browser|1|
+|Server|2|
+
 #### Product
 >This is made so that we can keep track of which system the user accesses.
 #### Product.Server
