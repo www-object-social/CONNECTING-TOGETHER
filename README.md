@@ -78,5 +78,6 @@ Should only be used if Environment is Software, Browser and Server
 @OBJECTSOCIAL/@Product/Environment.cs
 Product.Environment.Server
 ```
+
 ##### Dependency.cs
 > Should only be used if Environment is Server
