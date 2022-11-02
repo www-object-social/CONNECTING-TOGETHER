@@ -7,9 +7,10 @@
 |-|
 |bad.claims|
 
-|Bind|
+|Dependencies|
 |-|
-|@Blazor browser/BadClaims.Browse|
+|@Blazor browser/BadClaims.Browser|
+|@OBJECTSOCIAL/@Product/Product.Server|
 ## @Blazor software
 
 
@@ -17,3 +18,6 @@
 ### BadClaims.Browser
 
 ## @OBJECTSOCIAL
+### @Product
+#### Product
+#### Product.Server
