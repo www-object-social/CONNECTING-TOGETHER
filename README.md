@@ -6,6 +6,9 @@
 |Domain|
 |-|
 |bad.claims|
+|Bind|
+|-|
+|@Blazor browser/BadClaims.Browse|
 ## @Blazor software
 
 
