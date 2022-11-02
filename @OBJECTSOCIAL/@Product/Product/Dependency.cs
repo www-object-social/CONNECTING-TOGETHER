@@ -1,7 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 namespace Product;
 /// <summary>
-/// Dependency
 /// Should only be used if Environment is Software, Browser and Server
 /// </summary>
 public static class Dependency

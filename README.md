@@ -45,7 +45,11 @@ Product.Name.BadClaims
 >Description coming
 ### @Product
 >We must have control on which platform the system works.
-#### Name.cs
+
+
+#### Product
+>This is made so that we can keep track of which system the user accesses.
+##### Name.cs
 >Our project names
 
 |Value|ID|
@@ -56,7 +60,7 @@ Product.Name.BadClaims
 |GoodClaims|3|
 |BadClaims|4|
 
-#### Environment.cs
+##### Environment.cs
 >Our Environment names
 
 |Value|ID|
@@ -65,7 +69,14 @@ Product.Name.BadClaims
 |Browser|1|
 |Server|2|
 
-#### Product
->This is made so that we can keep track of which system the user accesses.
+##### Dependency.cs
+Should only be used if Environment is Software, Browser and Server
+
 #### Product.Server
->Description coming
+>Shortcut for environment server
+```
+@OBJECTSOCIAL/@Product/Environment.cs
+Product.Environment.Server
+```
+##### Dependency.cs
+> Should only be used if Environment is Server
