@@ -11,6 +11,9 @@
 |-|
 |@Blazor browser/BadClaims.Browser|
 |@OBJECTSOCIAL/@Product/Product.Server|
+```
+builder.Services.Product(Product.Name.BadClaims);
+```
 ## @Blazor software
 
 
@@ -20,4 +23,5 @@
 ## @OBJECTSOCIAL
 ### @Product
 #### Product
+
 #### Product.Server
