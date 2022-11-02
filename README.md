@@ -17,7 +17,8 @@
 ## @Blazor server
 >Description coming
 ### OBJECTSOCIAL.Server
-
+### MemoryClaims.Server
+### GoodClaims.Server
 ### BadClaims.Server
 >Description coming
 
@@ -39,6 +40,9 @@ Product.Name.BadClaims
 >Description coming
 ## @Blazor browser
 >Description coming
+### OBJECTSOCIAL.Browser
+### MemoryClaims.Browser
+### GoodClaims.Browser
 ### BadClaims.Browser
 >Description coming
 ## @OBJECTSOCIAL
