@@ -1,7 +1,15 @@
 # CONNECTING TOGETHER
+## Assembly names
 
-# @Blazor browser
+## @Blazor server
+### BadClaims.Server
+|Domain|
+|-|
+|bad.claims|
+## @Blazor software
 
-# @Blazor server
 
-# @Blazor software
+## @Blazor browser
+### BadClaims.Browser
+
+## @OBJECTSOCIAL

@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\@Blazor browser\BadClaims\BadClaims.Browser.csproj" />
     <ProjectReference Include="..\..\@OBJECTSOCIAL\@Product\Product.Server\Product.Server.csproj" />
     <ProjectReference Include="..\..\@OBJECTSOCIAL\@Product\Product\Product.csproj" />
   </ItemGroup>
