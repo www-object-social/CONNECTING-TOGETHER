@@ -10,6 +10,7 @@
 |*.Browser|Only for browser|
 |*.Software|Only for software|
 |*.OS|Only for browser and software|
+| |For browser,software and server|
 
 >* indicate that we can choose any of the names that are available
 
