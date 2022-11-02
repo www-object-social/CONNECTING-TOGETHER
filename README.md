@@ -11,9 +11,10 @@
 |-|
 |@Blazor browser/BadClaims.Browser|
 |@OBJECTSOCIAL/@Product/Product.Server|
-```Services
+```
 builder.Services.Product(Product.Name.BadClaims);
 ```
+>Description coming
 ## @Blazor software
 
 
