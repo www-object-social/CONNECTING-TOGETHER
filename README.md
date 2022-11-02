@@ -2,10 +2,20 @@
 >Description coming
 
 ## Assembly names
->Description coming
+>Relationship structures with names
+
+|Name|Note|
+|-|-|
+|*.Server|Only for server|
+|*.Browser|Only for browser|
+|*.Software|Only for software|
+|*.OS|Only for browser and software|
+
+>* indicate that we can choose any of the names that are available
 
 ## @Blazor server
 >Description coming
+### OBJECTSOCIAL.Server
 
 ### BadClaims.Server
 >Description coming
@@ -20,8 +30,8 @@
 |@OBJECTSOCIAL/@Product/Product.Server|
 
 ```
-Product.Name.BadClaims;
-//@OBJECTSOCIAL/@Product/Name.cs
+@OBJECTSOCIAL/@Product/Name.cs
+Product.Name.BadClaims
 ```
 
 ## @Blazor software
