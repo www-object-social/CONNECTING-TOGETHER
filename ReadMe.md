@@ -2,8 +2,8 @@
 
 # Product
 ## Name.cs
-| Value| ID |
-| --- | --- |
+|Value|ID|
+|-|-|
 |ForwardOBJECTSOCIAL|0|
 |OBJECTSOCIAL|1|
 |MemoryClaims|2|
