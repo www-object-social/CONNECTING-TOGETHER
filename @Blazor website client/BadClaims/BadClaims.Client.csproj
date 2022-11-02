@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Shared\BadClaims.Shared.csproj" />
+    <ProjectReference Include="..\..\@CONNECTING TOGETHER\@UI\UI\UI.csproj" />
   </ItemGroup>
 
   <ItemGroup>

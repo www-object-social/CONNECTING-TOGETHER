@@ -11,8 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Client\BadClaims.Client.csproj" />
-    <ProjectReference Include="..\Shared\BadClaims.Shared.csproj" />
+    <ProjectReference Include="..\..\@Blazor website client\BadClaims\BadClaims.Client.csproj" />
   </ItemGroup>
 
 
