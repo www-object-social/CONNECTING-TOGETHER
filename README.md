@@ -1,3 +1,7 @@
-#CONNECTING TOGETHER
+# CONNECTING TOGETHER
 
-#@Blazor browser
+# @Blazor browser
+
+# @Blazor server
+
+# @Blazor software
