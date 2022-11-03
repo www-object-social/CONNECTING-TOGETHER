@@ -1,10 +1,10 @@
 {
-  "name": "MemoryClaims",
-  "short_name": "MemoryClaims",
+  "name": "Memory|Claims",
+  "short_name": "Memory|Claims",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#03173d",
+  "background_color": "#000000",
+  "theme_color": "#000000",
   "prefer_related_applications": false,
   "icons": [
     {

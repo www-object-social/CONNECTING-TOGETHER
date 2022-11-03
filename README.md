@@ -4,12 +4,12 @@
 >We believe that people have a job or are looking for one.
 >OBJECT:SOCIAL
 >We believe that there are 2 types of inner personality.
->Good|claims and bad|claims.
+>Good|Claims and Bad|Claims.
 >We all have memory, we need to store it somewhere to share and be remembered.
 >Memory|Claims
 >Become part of us.
 >We are looking for all types of talent.
->become-part-of-us@object.social
+>become-part-of-us@object.social 
 >Maybe we are taking a long time to answer. "sorry about this".
 
 ## Assembly names
@@ -114,6 +114,50 @@ Product.Name.BadClaims
 
 ## @Blazor software
 >Description coming
+### OBJECTSOCIAL.Software
+>Description coming
+
+|Dependencies|
+|-|
+|@OBJECTSOCIAL/@Product/Product.Software|
+
+```
+@OBJECTSOCIAL/@Product/Name.cs
+Product.Name.OBJECTSOCIAL
+```
+### MemoryClaims.Software
+>Description coming
+
+|Dependencies|
+|-|
+|@OBJECTSOCIAL/@Product/Product.Software|
+
+```
+@OBJECTSOCIAL/@Product/Name.cs
+Product.Name.MemoryClaims
+```
+### GoodClaims.Software
+>Description coming
+
+|Dependencies|
+|-|
+|@OBJECTSOCIAL/@Product/Product.Software|
+
+```
+@OBJECTSOCIAL/@Product/Name.cs
+Product.Name.GoodClaims
+```
+### BadClaims.Software
+>Description coming
+
+|Dependencies|
+|-|
+|@OBJECTSOCIAL/@Product/Product.Software|
+
+```
+@OBJECTSOCIAL/@Product/Name.cs
+Product.Name.BadClaims
+```
 ## @Blazor browser
 >Description coming
 ### OBJECTSOCIAL.Browser
@@ -232,7 +276,24 @@ Product.Environment.Browser
 ```
 
 ##### Dependency.cs
-> Should only be used if Environment is browser
+> Should only be used if Environment is Browser
+
+#### Product.Software
+>Shortcut for environment Software
+
+|Dependencies|
+|-|
+|@Product/Product|
+|@Product/Product.OS|
+
+```
+@OBJECTSOCIAL/@Product/Environment.cs
+Product.Environment.Software
+```
+
+##### Dependency.cs
+> Should only be used if Environment is Software
+
 #### Product.OS
 |Dependencies|
 |-|

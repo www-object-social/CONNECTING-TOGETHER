@@ -1,10 +1,10 @@
 {
-  "name": "GoodClaims",
-  "short_name": "GoodClaims",
+  "name": "Good|Claims",
+  "short_name": "Good|Claims",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#03173d",
+  "background_color": "#000000",
+  "theme_color": "#000000",
   "prefer_related_applications": false,
   "icons": [
     {
