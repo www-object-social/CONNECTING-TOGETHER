@@ -1,11 +1,10 @@
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
-using OBJECTSOCIAL.Client;
-
+using OBJECTSOCIAL.Browser;
+using Product.Browser;
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
-builder.RootComponents.Add<App>("#app");
+builder.RootComponents.Add<App>("main");
 builder.RootComponents.Add<HeadOutlet>("head::after");
-
+builder.Services.Product(Product.Name.OBJECTSOCIAL);
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
-
 await builder.Build().RunAsync();
