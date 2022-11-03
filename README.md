@@ -7,6 +7,10 @@
 >Good|claims and bad|claims.
 >We all have memory, we need to store it somewhere to share and be remembered.
 >Memory|Claims
+>Become part of us.
+>We are looking for all types of talent.
+>become-part-of-us@object.social
+>Maybe we are taking a long time to answer. "sorry about this".
 
 ## Assembly names
 >Relationship structures with names
