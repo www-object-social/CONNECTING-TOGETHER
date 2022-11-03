@@ -11,10 +11,10 @@
         <EnableDefaultCssItems>false</EnableDefaultCssItems>
 
         <!-- Display name -->
-        <ApplicationTitle>BadClaims</ApplicationTitle>
+        <ApplicationTitle>Bad|Claims</ApplicationTitle>
 
         <!-- App Identifier -->
-        <ApplicationId>com.companyname.badclaims</ApplicationId>
+        <ApplicationId>badclaims.connecting.together</ApplicationId>
         <ApplicationIdGuid>CE02EAFC-CFDC-4F52-9A4B-A91CE84640ED</ApplicationIdGuid>
 
         <!-- Versions -->
@@ -29,37 +29,16 @@
 		<NoWarn>1701;1702;NU1603;WMC100;</NoWarn>
     </PropertyGroup>
 
-    <ItemGroup>
-        <!-- App Icon -->
-        <MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
-
-        <!-- Splash Screen -->
-        <MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
-
-        <!-- Images -->
-        <MauiImage Include="Resources\Images\*" />
-        <MauiImage Update="Resources\Images\dotnet_bot.svg" BaseSize="168,208" />
-
-        <!-- Custom Fonts -->
-        <MauiFont Include="Resources\Fonts\*" />
-
-        <!-- Raw Assets (also remove the "Resources\Raw" prefix) -->
-        <MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
-    </ItemGroup>
-
-    <ItemGroup>
-        <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0-rc.2.22430.11" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\..\@OBJECTSOCIAL\@Product\Product.Software\Product.Software.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Content Update="wwwroot\favicon.ico">
-        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      </Content>
-    </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0-rc.2.22430.11" />
+		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" />
+		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#000000" BaseSize="128,128" />
+		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
+		<ProjectReference Include="..\..\@OBJECTSOCIAL\@Product\Product.Software\Product.Software.csproj" />
+		<Content Update="wwwroot\favicon.ico">
+			<ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+			<CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+		</Content>
+	</ItemGroup>
 
 </Project>

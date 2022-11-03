@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\@OBJECTSOCIAL\@Product\Product.Hologram.OS\Product.Hologram.OS.csproj" />
+    <Folder Include="wwwroot\" />
   </ItemGroup>
 
 </Project>
