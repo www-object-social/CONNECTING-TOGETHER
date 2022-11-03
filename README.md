@@ -44,7 +44,7 @@
 Product.Name.OBJECTSOCIAL
 ```
 ### ForwardOBJECTSOCIAL.Server
->Description coming
+>Used for short Domain names requested by an investor DK33497326 - MB Revision ApS - Hornevej 7 - 2770 Kastrup - Denmark
 
 |Domain|
 |-|
