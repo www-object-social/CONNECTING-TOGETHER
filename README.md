@@ -23,7 +23,7 @@
 |*.OS|Only for browser and software|
 | |For browser,software and server|
 
-> "*" indicate that we can choose any of the names that are available
+> "*" indicate that we can choose any of the names that are available. but these names must not be used "Server", "Browser", "Software" and "OS"
 
 ## @Blazor server
 >Description coming
@@ -252,7 +252,7 @@ Should only be used if Environment is Software, Browser and Server
 
 |Dependencies|
 |-|
-|@Product/Product|
+|@OBJECTSOCIAL/@Product/Product|
 
 ```
 @OBJECTSOCIAL/@Product/Environment.cs
@@ -267,8 +267,8 @@ Product.Environment.Server
 
 |Dependencies|
 |-|
-|@Product/Product|
-|@Product/Product.OS|
+|@OBJECTSOCIAL/@Product/Product|
+|@OBJECTSOCIAL/@Product/Product.OS|
 
 ```
 @OBJECTSOCIAL/@Product/Environment.cs
@@ -283,8 +283,8 @@ Product.Environment.Browser
 
 |Dependencies|
 |-|
-|@Product/Product|
-|@Product/Product.OS|
+|@OBJECTSOCIAL/@Product/Product|
+|@OBJECTSOCIAL/@Product/Product.OS|
 
 ```
 @OBJECTSOCIAL/@Product/Environment.cs
@@ -297,7 +297,7 @@ Product.Environment.Software
 #### Product.OS
 |Dependencies|
 |-|
-|@OBJECTSOCIAL/Layout.OS|
+|@OBJECTSOCIAL/@Layout/Layout.OS|
 
 ##### Dependency.cs
 > Should only be used if Environment is Software and Browser
