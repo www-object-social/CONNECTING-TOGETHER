@@ -21,7 +21,7 @@
 
 |Domain|
 |-|
-|bad.claims|
+|object.social|
 
 |Dependencies|
 |-|
@@ -53,7 +53,7 @@ Product.Name.ForwardOBJECTSOCIAL
 
 |Domain|
 |-|
-|bad.claims|
+|memory.claims|
 
 |Dependencies|
 |-|
@@ -69,7 +69,7 @@ Product.Name.MemoryClaims
 
 |Domain|
 |-|
-|bad.claims|
+|good.claims|
 
 |Dependencies|
 |-|
