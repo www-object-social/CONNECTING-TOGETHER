@@ -19,4 +19,8 @@
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Product\Product.csproj" />
+  </ItemGroup>
+
 </Project>

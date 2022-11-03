@@ -218,6 +218,16 @@ Product.Name.BadClaims
 
 ## @OBJECTSOCIAL
 >Description coming
+
+### @Layout
+#### Layout.OS
+|Dependencies|
+|-|
+|@OBJECTSOCIAL/@Product/Product.Hologram.OS|
+
+### @Device
+#### Device.Software
+> This contain setting for Microsoft platform
 ### @Product
 >We must have control on which platform the system works.
 
