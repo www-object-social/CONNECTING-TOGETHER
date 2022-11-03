@@ -110,7 +110,6 @@ Product.Name.BadClaims
 
 |Dependencies|
 |-|
-|@OBJECTSOCIAL/Layout.OS|
 |@OBJECTSOCIAL/@Product/Product.Browser|
 
 ```
@@ -122,7 +121,6 @@ Product.Name.OBJECTSOCIAL
 
 |Dependencies|
 |-|
-|@OBJECTSOCIAL/Layout.OS|
 |@OBJECTSOCIAL/@Product/Product.Browser|
 
 ```
@@ -134,7 +132,6 @@ Product.Name.ForwardOBJECTSOCIAL
 
 |Dependencies|
 |-|
-|@OBJECTSOCIAL/Layout.OS|
 |@OBJECTSOCIAL/@Product/Product.Browser|
 
 ```
@@ -146,7 +143,6 @@ Product.Name.MemoryClaims
 
 |Dependencies|
 |-|
-|@OBJECTSOCIAL/Layout.OS|
 |@OBJECTSOCIAL/@Product/Product.Browser|
 
 ```
@@ -158,7 +154,6 @@ Product.Name.GoodClaims
 
 |Dependencies|
 |-|
-|@OBJECTSOCIAL/Layout.OS|
 |@OBJECTSOCIAL/@Product/Product.Browser|
 
 ```
@@ -198,7 +193,7 @@ Product.Name.BadClaims
 Should only be used if Environment is Software, Browser and Server
 
 #### Product.Server
->Shortcut for environment server
+>Shortcut for environment Server
 
 |Dependencies|
 |-|
@@ -213,7 +208,7 @@ Product.Environment.Server
 > Should only be used if Environment is Server
 
 #### Product.Browser
->Shortcut for environment server
+>Shortcut for environment Browser
 
 |Dependencies|
 |-|
@@ -226,8 +221,11 @@ Product.Environment.Browser
 ```
 
 ##### Dependency.cs
-> Should only be used if Environment is Server
+> Should only be used if Environment is browser
 #### Product.OS
->Shortcut for environment server
+|Dependencies|
+|-|
+|@OBJECTSOCIAL/Layout.OS|
+
 ##### Dependency.cs
 > Should only be used if Environment is Software and Browser
