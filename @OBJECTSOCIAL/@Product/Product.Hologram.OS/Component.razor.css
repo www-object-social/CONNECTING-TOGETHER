@@ -60,7 +60,7 @@
     }
 }
 
-div::before {
+div::after {
     content: "";
     transform: rotate(90deg);
     position: absolute;
