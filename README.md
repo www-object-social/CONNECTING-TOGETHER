@@ -193,13 +193,22 @@ Product.Name.BadClaims
 
 ## @OBJECTSOCIAL
 ### @Layout
+### @Device
+#### Device.Software
+> This contain setting for Microsoft platform
 #### Layout.OS
 |Dependencies|
 |-|
 |@OBJECTSOCIAL/@Product/Product.Hologram.OS|
-### @Device
-#### Device.Software
-> This contain setting for Microsoft platform
+### @Network
+#### Network
+##### Status.cs
+|Value|ID|
+|-|-|
+|Offline|0|
+|Online|1|
+##### Infomation.cs
+
 ### @Product
 >We must have control on which platform the system works.
 #### Product

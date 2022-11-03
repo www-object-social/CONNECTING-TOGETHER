@@ -2,7 +2,6 @@
 using Microsoft.Extensions.Logging;
 using Product.Software;
 namespace BadClaims;
-
 public static class MauiProgram
 {
     public static MauiApp CreateMauiApp()
