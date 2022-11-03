@@ -74,6 +74,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Network.Software", "@OBJECT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Network.Browser", "@OBJECTSOCIAL\@Network\Network.Browser\Network.Browser.csproj", "{F5438C16-E76D-4A23-9547-2B47D0ECD972}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "@Problem", "@Problem", "{F628BA5E-4849-4034-92C6-CEAE7B2D9122}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
