@@ -26,10 +26,7 @@
 > "*" indicate that we can choose any of the names that are available. but these names must not be used "Server", "Browser", "Software" and "OS"
 
 ## @Blazor server
->Description coming
 ### OBJECTSOCIAL.Server
->Description coming
-
 |Domain|
 |-|
 |object.social|
@@ -53,7 +50,6 @@ Product.Name.OBJECTSOCIAL
 |myos.world|
 |osmy.world|
 
-
 |Dependencies|
 |-|
 |@Blazor browser/ForwardOBJECTSOCIAL.Browser|
@@ -64,7 +60,6 @@ Product.Name.OBJECTSOCIAL
 Product.Name.ForwardOBJECTSOCIAL
 ```
 ### MemoryClaims.Server
->Description coming
 
 |Domain|
 |-|
@@ -80,8 +75,6 @@ Product.Name.ForwardOBJECTSOCIAL
 Product.Name.MemoryClaims
 ```
 ### GoodClaims.Server
->Description coming
-
 |Domain|
 |-|
 |good.claims|
@@ -96,8 +89,6 @@ Product.Name.MemoryClaims
 Product.Name.GoodClaims
 ```
 ### BadClaims.Server
->Description coming
-
 |Domain|
 |-|
 |bad.claims|
@@ -113,10 +104,8 @@ Product.Name.BadClaims
 ```
 
 ## @Blazor software
->Description coming
-### OBJECTSOCIAL.Software
->Description coming
 
+### OBJECTSOCIAL.Software
 |Dependencies|
 |-|
 |@OBJECTSOCIAL/@Product/Product.Software|
@@ -126,8 +115,6 @@ Product.Name.BadClaims
 Product.Name.OBJECTSOCIAL
 ```
 ### MemoryClaims.Software
->Description coming
-
 |Dependencies|
 |-|
 |@OBJECTSOCIAL/@Product/Product.Software|
@@ -137,7 +124,7 @@ Product.Name.OBJECTSOCIAL
 Product.Name.MemoryClaims
 ```
 ### GoodClaims.Software
->Description coming
+
 
 |Dependencies|
 |-|
@@ -148,8 +135,6 @@ Product.Name.MemoryClaims
 Product.Name.GoodClaims
 ```
 ### BadClaims.Software
->Description coming
-
 |Dependencies|
 |-|
 |@OBJECTSOCIAL/@Product/Product.Software|
@@ -161,8 +146,6 @@ Product.Name.BadClaims
 ## @Blazor browser
 >Description coming
 ### OBJECTSOCIAL.Browser
->Description coming
-
 |Dependencies|
 |-|
 |@OBJECTSOCIAL/@Product/Product.Browser|
@@ -172,8 +155,6 @@ Product.Name.BadClaims
 Product.Name.OBJECTSOCIAL
 ```
 ### ForwardOBJECTSOCIAL.Browser
->Description coming
-
 |Dependencies|
 |-|
 |@OBJECTSOCIAL/@Product/Product.Browser|
@@ -183,8 +164,6 @@ Product.Name.OBJECTSOCIAL
 Product.Name.ForwardOBJECTSOCIAL
 ```
 ### MemoryClaims.Browser
->Description coming
-
 |Dependencies|
 |-|
 |@OBJECTSOCIAL/@Product/Product.Browser|
@@ -194,8 +173,6 @@ Product.Name.ForwardOBJECTSOCIAL
 Product.Name.MemoryClaims
 ```
 ### GoodClaims.Browser
->Description coming
-
 |Dependencies|
 |-|
 |@OBJECTSOCIAL/@Product/Product.Browser|
@@ -205,8 +182,6 @@ Product.Name.MemoryClaims
 Product.Name.GoodClaims
 ```
 ### BadClaims.Browser
->Description coming
-
 |Dependencies|
 |-|
 |@OBJECTSOCIAL/@Product/Product.Browser|
@@ -217,26 +192,20 @@ Product.Name.BadClaims
 ```
 
 ## @OBJECTSOCIAL
->Description coming
-
 ### @Layout
 #### Layout.OS
 |Dependencies|
 |-|
 |@OBJECTSOCIAL/@Product/Product.Hologram.OS|
-
 ### @Device
 #### Device.Software
 > This contain setting for Microsoft platform
 ### @Product
 >We must have control on which platform the system works.
-
-
 #### Product
 >This is made so that we can keep track of which system the user accesses.
 ##### Name.cs
 >Our project names
-
 |Value|ID|
 |-|-|
 |ForwardOBJECTSOCIAL|0|
@@ -244,19 +213,15 @@ Product.Name.BadClaims
 |MemoryClaims|2|
 |GoodClaims|3|
 |BadClaims|4|
-
 ##### Environment.cs
 >Our Environment names
-
 |Value|ID|
 |-|-|
 |Software|0|
 |Browser|1|
 |Server|2|
-
 ##### Dependency.cs
 Should only be used if Environment is Software, Browser and Server
-
 #### Product.Server
 >Shortcut for environment Server
 
@@ -270,8 +235,7 @@ Product.Environment.Server
 ```
 
 ##### Dependency.cs
-> Should only be used if Environment is Server
-
+>Should only be used if Environment is Server
 #### Product.Browser
 >Shortcut for environment Browser
 
@@ -286,8 +250,7 @@ Product.Environment.Browser
 ```
 
 ##### Dependency.cs
-> Should only be used if Environment is Browser
-
+>Should only be used if Environment is Browser
 #### Product.Software
 >Shortcut for environment Software
 
@@ -302,7 +265,7 @@ Product.Environment.Software
 ```
 
 ##### Dependency.cs
-> Should only be used if Environment is Software
+>Should only be used if Environment is Software
 
 #### Product.OS
 |Dependencies|
@@ -310,6 +273,5 @@ Product.Environment.Software
 |@OBJECTSOCIAL/@Layout/Layout.OS|
 
 ##### Dependency.cs
-> Should only be used if Environment is Software and Browser
-
+>Should only be used if Environment is Software and Browser
 ##### Product.Hologram.OS
