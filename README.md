@@ -1,5 +1,12 @@
 # CONNECTING TOGETHER
->Description coming
+>We want to create a platform that everyone can connect to.
+>But also want to connect to others.
+>We believe that people have a job or are looking for one.
+>OBJECT:SOCIAL
+>We believe that there are 2 types of inner personality.
+>Good|claims and bad|claims.
+>We all have memory, we need to store it somewhere to share and be remembered.
+>Memory|Claims
 
 ## Assembly names
 >Relationship structures with names
