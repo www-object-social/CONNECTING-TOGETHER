@@ -33,7 +33,6 @@
 Product.Name.OBJECTSOCIAL
 ```
 ### ForwardOBJECTSOCIAL.Server
-### MemoryClaims.Server
 >Description coming
 
 |Domain|
@@ -48,6 +47,22 @@ Product.Name.OBJECTSOCIAL
 ```
 @OBJECTSOCIAL/@Product/Name.cs
 Product.Name.ForwardOBJECTSOCIAL
+```
+### MemoryClaims.Server
+>Description coming
+
+|Domain|
+|-|
+|bad.claims|
+
+|Dependencies|
+|-|
+|@Blazor browser/MemoryClaims.Browser|
+|@OBJECTSOCIAL/@Product/Product.Server|
+
+```
+@OBJECTSOCIAL/@Product/Name.cs
+Product.Name.MemoryClaims
 ```
 ### GoodClaims.Server
 >Description coming
