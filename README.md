@@ -12,7 +12,7 @@
 |*.OS|Only for browser and software|
 | |For browser,software and server|
 
->* indicate that we can choose any of the names that are available
+> "*" indicate that we can choose any of the names that are available
 
 ## @Blazor server
 >Description coming
@@ -37,7 +37,11 @@ Product.Name.OBJECTSOCIAL
 
 |Domain|
 |-|
-|bad.claims|
+|myos.work|
+|osmy.work|
+|myos.world|
+|osmy.world|
+
 
 |Dependencies|
 |-|
