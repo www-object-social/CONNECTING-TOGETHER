@@ -17,8 +17,54 @@
 ## @Blazor server
 >Description coming
 ### OBJECTSOCIAL.Server
+>Description coming
+
+|Domain|
+|-|
+|bad.claims|
+
+|Dependencies|
+|-|
+|@Blazor browser/BadClaims.Browser|
+|@OBJECTSOCIAL/@Product/Product.Server|
+
+```
+@OBJECTSOCIAL/@Product/Name.cs
+Product.Name.OBJECTSOCIAL
+```
+### ForwardOBJECTSOCIAL.Server
 ### MemoryClaims.Server
+>Description coming
+
+|Domain|
+|-|
+|bad.claims|
+
+|Dependencies|
+|-|
+|@Blazor browser/ForwardOBJECTSOCIAL.Browser|
+|@OBJECTSOCIAL/@Product/Product.Server|
+
+```
+@OBJECTSOCIAL/@Product/Name.cs
+Product.Name.ForwardOBJECTSOCIAL
+```
 ### GoodClaims.Server
+>Description coming
+
+|Domain|
+|-|
+|bad.claims|
+
+|Dependencies|
+|-|
+|@Blazor browser/GoodClaims.Browser|
+|@OBJECTSOCIAL/@Product/Product.Server|
+
+```
+@OBJECTSOCIAL/@Product/Name.cs
+Product.Name.GoodClaims
+```
 ### BadClaims.Server
 >Description coming
 
@@ -41,6 +87,7 @@ Product.Name.BadClaims
 ## @Blazor browser
 >Description coming
 ### OBJECTSOCIAL.Browser
+### ForwardOBJECTSOCIAL.Browser
 ### MemoryClaims.Browser
 ### GoodClaims.Browser
 ### BadClaims.Browser
@@ -81,6 +128,16 @@ Should only be used if Environment is Software, Browser and Server
 ```
 @OBJECTSOCIAL/@Product/Environment.cs
 Product.Environment.Server
+```
+
+##### Dependency.cs
+> Should only be used if Environment is Server
+
+#### Product.Browser
+>Shortcut for environment server
+```
+@OBJECTSOCIAL/@Product/Environment.cs
+Product.Environment.Browser
 ```
 
 ##### Dependency.cs
