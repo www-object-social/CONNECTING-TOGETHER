@@ -106,11 +106,65 @@ Product.Name.BadClaims
 ## @Blazor browser
 >Description coming
 ### OBJECTSOCIAL.Browser
+>Description coming
+
+|Dependencies|
+|-|
+|@OBJECTSOCIAL/Layout.OS|
+|@OBJECTSOCIAL/@Product/Product.Browser|
+
+```
+@OBJECTSOCIAL/@Product/Name.cs
+Product.Name.OBJECTSOCIAL
+```
 ### ForwardOBJECTSOCIAL.Browser
+>Description coming
+
+|Dependencies|
+|-|
+|@OBJECTSOCIAL/Layout.OS|
+|@OBJECTSOCIAL/@Product/Product.Browser|
+
+```
+@OBJECTSOCIAL/@Product/Name.cs
+Product.Name.ForwardOBJECTSOCIAL
+```
 ### MemoryClaims.Browser
+>Description coming
+
+|Dependencies|
+|-|
+|@OBJECTSOCIAL/Layout.OS|
+|@OBJECTSOCIAL/@Product/Product.Browser|
+
+```
+@OBJECTSOCIAL/@Product/Name.cs
+Product.Name.MemoryClaims
+```
 ### GoodClaims.Browser
+>Description coming
+
+|Dependencies|
+|-|
+|@OBJECTSOCIAL/Layout.OS|
+|@OBJECTSOCIAL/@Product/Product.Browser|
+
+```
+@OBJECTSOCIAL/@Product/Name.cs
+Product.Name.GoodClaims
+```
 ### BadClaims.Browser
 >Description coming
+
+|Dependencies|
+|-|
+|@OBJECTSOCIAL/Layout.OS|
+|@OBJECTSOCIAL/@Product/Product.Browser|
+
+```
+@OBJECTSOCIAL/@Product/Name.cs
+Product.Name.GoodClaims
+```
 ## @OBJECTSOCIAL
 >Description coming
 ### @Product
@@ -154,6 +208,11 @@ Product.Environment.Server
 
 #### Product.Browser
 >Shortcut for environment server
+
+|Dependencies|
+|-|
+|@Product/Product.OS|
+
 ```
 @OBJECTSOCIAL/@Product/Environment.cs
 Product.Environment.Browser
@@ -161,3 +220,7 @@ Product.Environment.Browser
 
 ##### Dependency.cs
 > Should only be used if Environment is Server
+#### Product.OS
+>Shortcut for environment server
+##### Dependency.cs
+> Should only be used if Environment is Software and Browser
