@@ -163,8 +163,9 @@ Product.Name.GoodClaims
 
 ```
 @OBJECTSOCIAL/@Product/Name.cs
-Product.Name.GoodClaims
+Product.Name.BadClaims
 ```
+
 ## @OBJECTSOCIAL
 >Description coming
 ### @Product
@@ -198,6 +199,11 @@ Should only be used if Environment is Software, Browser and Server
 
 #### Product.Server
 >Shortcut for environment server
+
+|Dependencies|
+|-|
+|@Product/Product|
+
 ```
 @OBJECTSOCIAL/@Product/Environment.cs
 Product.Environment.Server
@@ -211,6 +217,7 @@ Product.Environment.Server
 
 |Dependencies|
 |-|
+|@Product/Product|
 |@Product/Product.OS|
 
 ```
