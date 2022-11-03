@@ -7,6 +7,7 @@
   <ItemGroup>
     <SupportedPlatform Include="browser" />
     <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="7.0.0-rc.2.22476.2" />
+    <ProjectReference Include="..\@OBJECTSOCIAL\@Network\Network\Network.csproj" />
     <ProjectReference Include="..\@OBJECTSOCIAL\@Product\Product.Hologram.OS\Product.Hologram.OS.csproj" />
   </ItemGroup>
 </Project>

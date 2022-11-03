@@ -6,5 +6,5 @@ using System.Threading.Tasks;
 namespace Network;
 public enum Status
 {
-    Offline=0,Online=1
+    GettingInfomation=0,Offline=1,Online=2
 }

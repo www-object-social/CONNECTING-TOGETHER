@@ -202,13 +202,23 @@ Product.Name.BadClaims
 |@OBJECTSOCIAL/@Product/Product.Hologram.OS|
 ### @Network
 #### Network
+>We need to knoew the network status of the Device
 ##### Status.cs
 |Value|ID|
 |-|-|
-|Offline|0|
-|Online|1|
+|GettingInfomation|0|
+|Offline|1|
+|Online|2|
 ##### Infomation.cs
-
+>Use this to inject
+#### Network.Software
+|Dependencies|
+|-|
+|@OBJECTSOCIAL/@Network/Network|
+#### Network.Browser
+|Dependencies|
+|-|
+|@OBJECTSOCIAL/@Network/Network|
 ### @Product
 >We must have control on which platform the system works.
 #### Product
@@ -251,6 +261,7 @@ Product.Environment.Server
 |Dependencies|
 |-|
 |@OBJECTSOCIAL/@Product/Product|
+|@OBJECTSOCIAL/@Network/Network.Browser|
 |@OBJECTSOCIAL/@Product/Product.OS|
 
 ```
@@ -267,6 +278,7 @@ Product.Environment.Browser
 |-|
 |@OBJECTSOCIAL/@Product/Product|
 |@OBJECTSOCIAL/@Product/Product.OS|
+|@OBJECTSOCIAL/@Network/Network.Software|
 
 ```
 @OBJECTSOCIAL/@Product/Environment.cs

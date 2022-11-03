@@ -13,9 +13,6 @@
 		<NoWarn>1701;1702;NU1603;WMC100;</NoWarn>
 	</PropertyGroup>
 	<ItemGroup>
-	  <ProjectReference Include="..\..\@Device\Device.Software\Device.Software.csproj" />
-	  <ProjectReference Include="..\..\@Network\Network.Software\Network.Software.csproj" />
-	  <ProjectReference Include="..\Product.OS\Product.OS.csproj" />
-	  <ProjectReference Include="..\Product\Product.csproj" />
+	  <ProjectReference Include="..\Network\Network.csproj" />
 	</ItemGroup>
 </Project>
